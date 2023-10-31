@@ -1,5 +1,8 @@
 # poetry-project
 
+## poetry
+- **"poetry shell"** для начала использования 
+
 ## Линтер 
 - **flake8**, использовать через обёртку pflake8
 
