@@ -162,7 +162,21 @@ files = [
     {file = "pyflakes-3.1.0.tar.gz", hash = "sha256:a0aae034c444db0071aa077972ba4768d40c830d9539fd45bf4cd3f8f6992efc"},
 ]
 
+[[package]]
+name = "pyproject-flake8"
+version = "6.1.0"
+description = "pyproject-flake8 (`pflake8`), a monkey patching wrapper to connect flake8 with pyproject.toml configuration"
+optional = false
+python-versions = ">=3.8.1"
+files = [
+    {file = "pyproject_flake8-6.1.0-py3-none-any.whl", hash = "sha256:86ea5559263c098e1aa4f866776aa2cf45362fd91a576b9fd8fbbbb55db12c4e"},
+    {file = "pyproject_flake8-6.1.0.tar.gz", hash = "sha256:6da8e5a264395e0148bc11844c6fb50546f1fac83ac9210f7328664135f9e70f"},
+]
+
+[package.dependencies]
+flake8 = "6.1.0"
+
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "c362d4c245bbf6e61a6479202884763f4d9a62c09f17bde09c3d79734f34f616"
+content-hash = "ce9d5d8a44cc8f2a6297198ed39f92c3e0c41301052637524a03c4dd272fb8fd"
